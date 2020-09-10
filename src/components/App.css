@@ -27,7 +27,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: content-box;
+    box-sizing: border-box;
+}
+
+.d-chart {
+    display: inline-block;
+    margin-left: auto;
+}
+.labels {
+    display: inline-block;
+    margin-right: auto;
+    min-width: 300px;
 }
 
 .d-chart-container {
@@ -45,7 +55,7 @@
     font-size: 20px;
 }
 .item .title {
-    color: #3e6db7;
+    color: grey;
 }
 .statewise {
     overflow: scroll;
@@ -74,10 +84,11 @@
     border-radius: 10px;
 }
 .box-text {
-    
+    color: grey;
     font-size: 20px;
 }
 .box-digit {
+    color: grey;
     font-size: 15px;
 }
 .light-red {
@@ -92,9 +103,7 @@
 .light-grey {
     background: lightgrey;
 }
-.label {
-    position: absolute;
-}
+
 @media(max-width: 991px) {
     .outer-container {
         flex-direction: column;
