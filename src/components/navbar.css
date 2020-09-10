@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    z-index: 1;
 }
 #Capa_1 {
     width: 50px;

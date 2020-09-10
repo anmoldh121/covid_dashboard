@@ -6,6 +6,7 @@
     flex-direction: row;
     padding: 0 2%;
     justify-content: space-between;
+    align-items: stretch;
 }
 .outer-container .shadow-container {    
     margin: 20px 0;
@@ -20,7 +21,7 @@
 .map {
     align-self: flex-end;
     position: relative;
-    padding: 20px
+    padding: 20px;
 }
 
 .chart {
@@ -76,20 +77,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: auto;
 }
 
 .box {
-    width: 180px;
-    padding: 20px;
+    width: 10vw;
+    padding: 2vh 1vw;
     border-radius: 10px;
 }
 .box-text {
     color: grey;
-    font-size: 20px;
+    font-size: 1vw;
 }
 .box-digit {
     color: grey;
-    font-size: 15px;
+    font-size: 0.8vw;
 }
 .light-red {
     background: lightcoral;
@@ -110,5 +112,14 @@
     }
     .half {
         width: 100%;
+    }
+    .box {
+        width: 20vw;
+    }
+    .box-text {
+        font-size: 2vw;
+    }
+    .box-digit {
+        font-size: 1.5vw;
     }
 } 
