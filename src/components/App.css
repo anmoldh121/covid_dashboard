@@ -104,7 +104,7 @@
     background: lightgrey;
 }
 
-@media(max-width: 991px) {
+@media(max-width: 1000px) {
     .outer-container {
         flex-direction: column;
     }
