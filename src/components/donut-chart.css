@@ -29,34 +29,15 @@ svg {
   align-items: center;
 }
 
-.circle_animation1 {
+
+.circle_animation {
   transform-origin: center center;
-  /* transform: rotateZ(180deg) rotate; */
   stroke-dasharray: calc(2*var(--pi)*75);
-  /* stroke-dasharray: calc(2 * var(--pi) * 300); */
   stroke-dashoffset: calc(2 * var(--pi) * 75);
   stroke-linecap: round;
   transition: 0.5s ease-in-out;
 }
 
-.circle_animation {
-  transform-origin: center center;
-  /* transform: rotateZ(var(--a3)); */
-  stroke-dasharray: calc(2*var(--pi)*75);
-  /* stroke-dasharray: calc(2 * var(--pi) * 300); */
-  stroke-dashoffset: calc(2 * var(--pi) * 75);
-  stroke-linecap: round;
-  transition: 0.5s ease-in-out;
-}
-.circle_animation2 {
-  transform-origin: center center;
-  /* transform: rotateZ(var(--a3)+var(--a2)); */
-  /* transform: rotateZ(270deg); */
-  stroke-dasharray: calc(2 * var(--pi) * 75);
-  stroke-dashoffset: calc(2 * var(--pi) * 75);
-  transition: 0.5s ease-in-out;
-  stroke-linecap: round;
-}
 .text {
   position: absolute;
 }
