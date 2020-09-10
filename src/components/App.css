@@ -1,0 +1,105 @@
+.outer-container {
+    margin-top: 80px;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    padding: 0 2%;
+    justify-content: space-between;
+}
+.outer-container .shadow-container {    
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1), 
+                -1px -1px 10px rgba(0,0,0,0.1);
+}
+.half {
+    width: 49%;
+}
+
+.map {
+    align-self: flex-end;
+    position: relative;
+    padding: 20px
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.d-chart-container {
+    display: inline-block;
+}
+
+.colour {
+    display: inline-block;
+    min-width: 20px;
+    min-height: 20px;
+    margin: 0 10px;
+}
+.item {
+    line-height: 30px;
+    font-size: 20px;
+}
+.item .title {
+    color: #3e6db7;
+}
+.statewise {
+    overflow: scroll;
+    height: 63vh;
+    padding: 20px;
+    overflow-x: hidden;
+}
+.statewise::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+}
+.statewise::-webkit-scrollbar-thumb {
+    background: #3e6db7;
+    border-radius: 10px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    width: 180px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box-text {
+    
+    font-size: 20px;
+}
+.box-digit {
+    font-size: 15px;
+}
+.light-red {
+    background: lightcoral;
+}
+.light-blue {
+    background: lightblue;
+}
+.light-green {
+    background: lightgreen;
+}
+.light-grey {
+    background: lightgrey;
+}
+.label {
+    position: absolute;
+}
+@media(max-width: 991px) {
+    .outer-container {
+        flex-direction: column;
+    }
+    .half {
+        width: 100%;
+    }
+} 

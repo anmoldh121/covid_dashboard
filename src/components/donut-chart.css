@@ -1,0 +1,83 @@
+:root {
+  --pi: 3.14159265359;
+  --a1: 180deg;
+  --a2: 90deg;
+  --a3: 90deg;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  position: absolute;
+  font-size: 150px;
+  font-weight: 800;
+  color: yellow;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle_animation1 {
+  transform-origin: center center;
+  /* transform: rotateZ(180deg) rotate; */
+  stroke-dasharray: calc(2*var(--pi)*75);
+  /* stroke-dasharray: calc(2 * var(--pi) * 300); */
+  stroke-dashoffset: calc(2 * var(--pi) * 75);
+  stroke-linecap: round;
+  transition: 0.5s ease-in-out;
+}
+
+.circle_animation {
+  transform-origin: center center;
+  /* transform: rotateZ(var(--a3)); */
+  stroke-dasharray: calc(2*var(--pi)*75);
+  /* stroke-dasharray: calc(2 * var(--pi) * 300); */
+  stroke-dashoffset: calc(2 * var(--pi) * 75);
+  stroke-linecap: round;
+  transition: 0.5s ease-in-out;
+}
+.circle_animation2 {
+  transform-origin: center center;
+  /* transform: rotateZ(var(--a3)+var(--a2)); */
+  /* transform: rotateZ(270deg); */
+  stroke-dasharray: calc(2 * var(--pi) * 75);
+  stroke-dashoffset: calc(2 * var(--pi) * 75);
+  transition: 0.5s ease-in-out;
+  stroke-linecap: round;
+}
+.text {
+  position: absolute;
+}
+.sub-text1 {
+  font-size: 28px;
+  color: #3e6db7
+}
+.sub-text2 {
+  font-size: 20px;
+  color: grey
+}
+
+/* #donut {
+  stroke-dashoffset: calc(2*var(--pi)*75*0.52);
+}
+#donut2 {
+  stroke-dashoffset: calc(2*var(--pi)*75*0.78);
+} */
+/* #circle {
+  stroke-dashoffset: calc(2*var(--pi)*75*0.78);
+} */
+
+
+
