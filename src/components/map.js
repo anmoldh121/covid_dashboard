@@ -18,134 +18,147 @@ export default function Map() {
         <g
      id="layer34"
      >
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
         <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="1"
             d="m 1374.8863,1294.8176 c 1.4915,0 6.5627,-2.983 6.5627,-2.983 0,0 0.5966,-2.6848 -0.895,-3.5797 -1.4915,-0.8949 -1.7898,-2.6847 -3.8779,-1.4915 -2.0881,1.1932 -3.5797,1.7898 -3.5797,4.1762 0,2.3865 1.7899,3.878 1.7899,3.878 z"
             id="path3950" />
 
     </g>
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}> 
     <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1361.1642,1332.1057 c 1.1933,2.983 -1.4915,1.4915 1.4916,4.7729 2.983,3.2813 3.8779,4.4745 5.6678,2.983 1.7898,-1.4915 4.4745,-0.5966 2.3864,-3.5796 -2.0881,-2.9831 -1.7898,-2.3865 -3.878,-5.6678 -2.0881,-3.2814 -3.2813,-5.6678 -3.8779,-2.6848 -0.5966,2.9831 -1.7899,4.1763 -1.7899,4.1763 z"
             id="path3952" />
     </g>
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
     <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1356.6897,1341.9497 c -0.2983,4.4746 -2.3865,4.4746 -1.1932,7.1594 1.1932,2.6847 4.1762,3.8779 5.0711,1.4915 0.8949,-2.3865 2.9831,0.2983 1.1933,-4.7729 -1.7899,-5.0712 -0.2984,-5.6678 -2.0882,-6.2644 -1.7898,-0.5966 -2.983,2.3864 -2.983,2.3864 z"
             id="path3954" />
     </g>
-    <g>
-    <title>fdsfd</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+    <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1411.2794,1363.726 c 1.4916,5.0712 4.1763,7.1593 4.1763,7.1593 0,0 2.0881,-0.5966 2.0881,-3.5797 0,-2.983 0.5966,-5.9661 -2.3864,-6.2644 -2.9831,-0.2983 -3.878,2.6848 -3.878,2.6848 z"
             id="path3956" />
     </g>
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
     <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1339.6863,1377.1497 c 0.2983,2.0881 0.2983,5.3695 0.8949,7.1593 0.5966,1.7898 1.4915,3.878 0.8949,5.0712 -0.5966,1.1932 0,1.4915 -2.6847,1.7898 -2.6847,0.2983 -4.7729,-0.2983 -4.1763,2.3864 0.5966,2.6848 6.2644,1.7899 5.9661,3.2814 -0.2983,1.4915 -3.8779,2.6847 -1.4915,5.0712 2.3864,2.3864 6.2644,1.7898 7.4576,-1.1932 1.1932,-2.9831 -1.7898,-2.6848 1.7898,-4.1763 3.5797,-1.4915 6.5627,-2.0881 6.5627,-5.0712 0,-2.983 1.7899,-3.5796 0,-6.2644 -1.7898,-2.6847 -2.3864,0 -2.983,-2.6847 -0.5966,-2.6848 1.7898,-3.2814 1.7898,-3.2814 0,0 2.3865,-1.4915 0.8949,-5.6678 -1.4915,-4.1762 1.7899,-7.4576 -4.1762,-7.7559 -5.9661,-0.2983 -8.9492,0.8949 -10.1424,3.878 -1.1932,2.983 -0.5966,7.4576 -0.5966,7.4576 z"
             id="path3958" />
     </g>
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
     <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1340.2829,1407.8751 c 1.4915,-0.8949 0.5966,-1.7899 3.878,-2.6848 3.2813,-0.8949 5.6678,-5.6678 5.9661,0 0.2983,5.6678 0.2983,7.4576 1.4915,9.8441 1.1932,2.3864 3.878,0.5966 1.1932,6.2644 -2.6847,5.6678 -2.0881,6.861 -5.6678,8.9491 -3.5796,2.0882 -2.983,-0.2983 -6.2644,3.5797 -3.2813,3.8779 -4.4745,5.9661 -4.4745,2.0881 0,-3.8779 1.1932,-4.1763 -0.5967,-8.3525 -1.7898,-4.1763 -5.3694,-3.878 -2.0881,-5.9661 3.2814,-2.0881 3.5797,-3.2814 2.3865,-5.3695 -1.1933,-2.0881 0.5966,-3.878 0.5966,-3.878 0,0 3.5796,1.1933 0,-1.7898 -3.5797,-2.983 -3.5797,-2.0881 -3.878,-4.1762 -0.2983,-2.0882 -1.7898,-0.895 -0.5966,-3.878 1.1932,-2.9831 2.3864,-4.4746 2.983,-2.0881 0.5966,2.3864 0.2983,2.3864 2.0882,5.3694 1.7898,2.9831 2.983,2.0882 2.983,2.0882 z"
             id="path3960" />
     </g>
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
     <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1398.4523,1429.9496 c -1.7898,2.9831 -7.4576,5.0712 -2.983,5.9661 4.4746,0.8949 7.1593,-0.2983 7.7559,-2.3864 0.5966,-2.0882 2.0881,-7.7559 -0.8949,-5.0712 -2.9831,2.6847 -3.878,1.4915 -3.878,1.4915 z"
             id="path3962" />
     </g>
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
     <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1358.1812,1463.0614 c 1.7898,5.0712 5.0712,5.3695 5.0712,5.3695 0,0 1.7898,-3.2813 0.2983,-4.7729 -1.4915,-1.4915 -5.3695,-1.4915 -5.3695,-0.5966 z"
             id="path3964" />
     </g>
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
     <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1357.5846,1458.8852 c 1.4915,-0.8949 5.9661,2.3864 2.6847,-3.5797 -3.2813,-5.9661 1.1932,-2.3864 -3.2813,-7.4576 -4.4746,-5.0712 -4.7729,-6.861 -4.7729,-2.983 0,3.8779 -0.8949,2.3864 0.2983,7.7559 1.1932,5.3695 4.7729,4.7729 5.0712,6.2644 z"
             id="path3966" />
     </g>
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
     <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1359.3744,1436.5123 c 0,0 -3.8779,-0.2983 -2.6847,4.1763 1.1932,4.4746 2.0881,7.7559 3.8779,6.2644 1.7899,-1.4915 3.2814,-4.7729 2.3865,-7.4576 -0.8949,-2.6848 -3.5797,-2.9831 -3.5797,-2.9831 z"
             id="path3968" />
     </g>
-    <g>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
     <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1350.127,1434.7225 c 0,4.4746 0.8949,6.861 2.3864,5.6678 1.4915,-1.1932 4.7729,-2.6848 2.9831,-3.878 -1.7899,-1.1932 -5.3695,-1.7898 -5.3695,-1.7898 z"
             id="path3970" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1342.0727,1444.8649 c 0,0 2.0882,4.1762 3.878,0.8949 1.7898,-3.2814 1.7898,-3.878 1.7898,-6.2644 0,-2.3865 2.0882,-3.878 0,-4.1763 -2.0881,-0.2983 -3.2813,-2.6847 -4.4745,0.2983 -1.1933,2.9831 -0.5966,3.878 -1.7899,4.4746 -1.1932,0.5966 -2.6847,0.8949 -3.8779,0.8949 -1.1932,0 -2.3865,-2.6847 -2.3865,1.7898 0,4.4746 1.4916,5.3695 0,6.861 -1.4915,1.4916 -1.7898,2.9831 -1.4915,4.7729 0.2983,1.7898 2.3865,2.3864 -0.5966,2.9831 -2.983,0.5966 -4.7729,-0.5967 -4.1763,2.6847 0.5966,3.2813 2.6848,2.983 2.9831,6.5627 0.2983,3.5797 -2.3865,3.2813 0,5.3695 2.3864,2.0881 2.983,0 2.983,3.5796 0,3.5797 -1.7898,5.3695 2.9831,5.3695 4.7729,0 10.1423,3.878 9.5457,-0.8949 -0.5966,-4.7729 -3.2813,-4.7729 -3.8779,-7.7559 -0.5966,-2.9831 3.5796,-6.2644 2.983,-9.2475 -0.5966,-2.983 -0.2983,-5.9661 -2.3864,-5.3694 -2.0882,0.5966 -2.3865,2.983 -2.9831,-2.3865 -0.5966,-5.3695 0.8949,-10.4406 0.8949,-10.4406 z"
             id="path3972" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1331.3338,1486.9258 c -1.7899,0.8949 -0.8949,5.9661 1.1932,5.3695 2.0881,-0.5966 3.878,-2.6847 2.3864,-3.878 -1.4915,-1.1932 -3.5796,-1.4915 -3.5796,-1.4915 z"
             id="path3974" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1337.8965,1488.4173 c 2.0881,1.7899 3.8779,4.4746 4.1762,1.4916 0.2983,-2.9831 3.5797,-5.0712 0,-5.3695 -3.5796,-0.2983 -5.6677,-0.8949 -5.6677,1.1932 0,2.0881 1.4915,2.6847 1.4915,2.6847 z"
             id="path3976" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1339.9846,1492.5936 c 0.2983,2.983 0.8949,4.1763 2.9831,3.878 2.0881,-0.2983 3.5796,-1.1933 3.2813,-2.3865 -0.2983,-1.1932 1.7898,-1.7898 -1.1932,-1.7898 -2.9831,0 -5.0712,0.2983 -5.0712,0.2983 z"
             id="path3978" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1340.5812,1497.9631 c 0,0 -2.3864,0.5966 -0.2983,2.3864 2.0881,1.7899 1.4915,4.1763 3.2814,4.7729 1.7898,0.5966 3.5796,2.3864 3.8779,0 0.2983,-2.3864 2.9831,-2.6847 -0.2983,-3.878 -3.2813,-1.1932 -6.5627,-3.2813 -6.5627,-3.2813 z"
             id="path3980" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1314.0321,1477.6784 c -1.1932,1.4915 -0.2983,4.1762 1.4915,5.3695 1.7899,1.1932 2.6848,1.7898 3.5797,-0.895 0.8949,-2.6847 3.5796,-4.7728 1.1932,-5.0711 -2.3864,-0.2983 -6.2644,0.5966 -6.2644,0.5966 z"
             id="path3982" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1341.1778,1510.7902 c 0.5966,1.7898 2.6848,4.4746 3.878,3.8779 1.1932,-0.5966 3.878,-0.5966 2.0881,-3.5796 -1.7898,-2.9831 -2.983,-6.2644 -4.4745,-5.0712 -1.4916,1.1932 -2.3865,0.2983 -3.878,2.3865 -1.4915,2.0881 -1.4915,4.7728 0,3.8779 1.4915,-0.8949 2.3864,-1.4915 2.3864,-1.4915 z"
             id="path3984" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1337.5982,1515.5631 c 1.1932,2.6847 2.983,2.6847 2.983,5.3694 0,2.6848 -0.2983,2.6848 1.1932,4.7729 1.4916,2.0882 1.4916,3.5797 0,4.4746 -1.4915,0.8949 -2.3864,3.2813 -2.0881,5.3695 0.2983,2.0881 2.9831,5.9661 -1.1932,5.6678 -4.1763,-0.2983 -9.2475,-2.6848 -9.5458,-3.5797 -0.2983,-0.8949 -4.4745,0.8949 -3.5796,-3.5796 0.8949,-4.4746 1.4915,-2.9831 0.2983,-6.5627 -1.1932,-3.5797 -4.1763,-3.878 -0.5966,-6.8611 3.5796,-2.983 3.2813,-6.5627 5.6678,-5.3694 2.3864,1.1932 6.861,0.2983 6.861,0.2983 z"
             id="path3986" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1313.7338,1508.4038 c -1.4915,1.7898 -1.4915,5.6677 1.1932,5.966 2.6848,0.2983 2.3865,2.3865 4.7729,0.2983 2.3864,-2.0881 2.983,-2.3864 2.0881,-3.8779 -0.8949,-1.4915 0,-0.2983 -2.3864,-2.0881 -2.3864,-1.7899 -5.6678,-0.2983 -5.6678,-0.2983 z"
             id="path3988" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1352.8117,1607.4409 c 0,2.6847 -2.0881,7.4576 0.5966,8.0542 2.6848,0.5966 7.7559,-0.2983 9.2475,-2.0881 1.4915,-1.7898 3.5796,-1.1932 2.3864,-3.2814 -1.1932,-2.0881 -2.0881,-2.6847 -4.1763,-4.7728 -2.0881,-2.0882 -8.0542,2.0881 -8.0542,2.0881 z"
             id="path3990" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1363.2524,1626.5324 c -0.5966,2.3864 -1.1932,6.2644 0.2983,5.6678 1.4915,-0.5966 2.6847,-0.8949 3.5796,-2.3864 0.895,-1.4916 4.1763,-2.3865 1.1933,-3.5797 -2.9831,-1.1932 -5.0712,0.2983 -5.0712,0.2983 z"
             id="path3992" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1403.5235,1635.4815 c 0.2983,2.9831 0,3.2814 1.7898,6.8611 1.7899,3.5796 2.9831,5.3694 4.4746,6.2643 1.4915,0.895 1.7898,2.0882 2.6847,-1.7898 0.895,-3.8779 5.0712,-2.6847 1.1933,-6.861 -3.878,-4.1763 -9.8441,-5.9661 -9.8441,-5.9661 l -0.2983,8.3526 4.1763,3.5796 4.4745,2.6847 -0.2983,0"
             id="path3994" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1375.1846,1646.5188 c -0.8949,2.0881 -1.1933,4.7729 0,5.3695 1.1932,0.5966 0.5966,-2.0881 2.0881,2.0881 1.4915,4.1763 0.2983,5.0712 2.6847,6.5627 2.3865,1.4916 1.1933,2.3865 4.4746,2.0882 3.2814,-0.2983 4.7729,-3.878 4.7729,-3.878 0,0 0.8949,-2.3864 -2.9831,-4.4746 -3.8779,-2.0881 -2.3864,-3.2813 -4.7728,-2.983 -2.3865,0.2983 -2.3865,-0.5966 -1.1933,-1.4915 1.1933,-0.8949 3.2814,-0.8949 2.0882,-2.0882 -1.1932,-1.1932 -7.1593,-1.1932 -7.1593,-1.1932 z"
             id="path3996" />
@@ -155,7 +168,8 @@ export default function Map() {
             d="m 1403.2252,1654.573 c 1.1932,3.2814 2.6847,2.6848 3.2814,4.7729 0.5966,2.0882 0.5966,3.5797 0.5966,3.5797 l 2.3864,-1.4915 c 0,0 4.7729,-0.895 4.1763,1.4915 -0.5966,2.3864 -1.7899,3.2813 -2.9831,3.5796 -1.1932,0.2983 -3.2813,-1.4915 -1.7898,1.7899 1.4915,3.2813 5.0712,5.0711 1.4915,5.3694 -3.5796,0.2983 -4.1762,0.895 -5.9661,-0.8949 -1.7898,-1.7898 -3.5796,-2.0881 -4.4745,-5.6678 -0.895,-3.5796 -2.6848,-5.0711 -1.4916,-7.4576 1.1932,-2.3864 4.7729,-5.0712 4.7729,-5.0712 z"
             id="path3998" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1398.154,1667.4001 c 0,0 -2.983,-0.2983 -4.1762,0.5967 -1.1933,0.8949 -2.9831,0.2983 -2.6848,2.983 0.2983,2.6847 1.1932,4.4746 2.9831,5.9661 1.7898,1.4915 2.6847,2.983 5.3694,3.2813 2.6848,0.2983 4.1763,-3.2813 4.1763,-3.2813 l -0.5966,-4.7729 z"
             id="path4000" />
@@ -165,12 +179,14 @@ export default function Map() {
             d="m 1412.771,1693.9493 -3.2814,-2.0882 c 0,0 -3.878,-2.6847 -4.4746,-1.1932 -0.5966,1.4915 -2.983,4.1763 -1.7898,5.9661 1.1932,1.7898 4.4746,3.5797 4.4746,3.5797 0,0 0.8949,-0.2983 3.2813,-1.1933 2.3865,-0.8949 3.5797,0 3.5797,0 l 2.983,-0.8949 -0.5966,-3.8779 z"
             id="path4002" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1413.0693,1702.8984 c 0,0 -1.7899,1.1932 -0.5967,3.2814 1.1933,2.0881 2.0882,2.6847 2.3865,4.1762 0.2983,1.4915 0.8949,2.6848 2.3864,1.7898 1.4915,-0.8949 2.6848,-2.0881 2.9831,-3.5796 0.2983,-1.4915 2.3864,-1.1932 2.983,-2.9831 0.5966,-1.7898 3.2814,-4.4745 0.5966,-5.9661 -2.6847,-1.4915 -3.8779,-3.5796 -5.6678,-2.6847 -1.7898,0.8949 -3.5796,2.9831 -3.8779,4.4746 -0.2983,1.4915 -1.1932,1.4915 -1.1932,1.4915 z"
             id="path4004" />
     </g>
-    <g><title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
+    <g onMouseEnter={() => changeChartData(state.map.AN, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Andaman and Nicobar Islands: {state.map.AN ? state.map.AN.active : ""}</title>
         <path title="2"
             d="m 1413.6659,1719.3052 c 1.1932,1.7898 1.7898,1.1932 2.0881,2.6847 0.2983,1.4915 -1.1932,1.4915 0,4.4746 1.1932,2.983 5.9661,3.5796 7.1593,5.0711 1.1932,1.4916 1.1932,3.5797 2.3864,5.9661 1.1933,2.3865 5.6678,2.6848 7.4577,2.3865 1.7898,-0.2983 3.5796,-3.5797 3.5796,-5.0712 0,-1.4915 1.7899,-5.3695 0.8949,-8.3525 -0.8949,-2.9831 -5.3694,-3.878 -6.2644,-6.5627 -0.8949,-2.6848 -0.8949,-3.2814 -0.8949,-5.9661 0,-2.6848 2.9831,-6.2644 -0.8949,-6.2644 -3.878,0 -5.6678,-1.1932 -6.861,2.0881 -1.1932,3.2814 -1.4915,4.7729 -3.2813,4.7729 -1.7899,0 -5.3695,4.7729 -5.3695,4.7729 z"
             id="path4006" />
@@ -178,102 +194,122 @@ export default function Map() {
   </g>
   <g 
      id="layer33">
-    <g><title>34341,d</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 183.04976,1459.4325 c 3.2494,0 4.8741,-1.6247 4.8741,-1.6247 0,0 3.24941,-7.0404 3.79098,-2.1663 0.54156,4.8742 -0.54157,7.0404 -0.54157,8.6651 0,1.6247 3.2494,4.8741 0,5.9573 -3.24941,1.0831 -3.79097,3.7909 -5.95724,0.5415 -2.16627,-3.2494 -2.16627,-11.3729 -2.16627,-11.3729 z"
             id="path3907" />
     </g>
-    <g><title>kvdvdvdds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 176.55095,1477.3042 c 0,0 -2.16627,-1.6247 -2.70784,1.0832 -0.54156,2.7078 -1.6247,3.7909 -0.54156,6.4988 1.08313,2.7078 2.70783,2.7078 5.95724,4.3325 3.2494,1.6247 7.04037,0 7.04037,0 l -0.54157,-5.9572 -6.4988,-5.9573 z"
             id="path3909" />
     </g>
-    <g><title>kvdvsndvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 196.58894,1497.8838 c 0.54157,2.1663 2.70784,3.791 2.70784,3.791 l -1.08314,4.3325 5.95724,1.6247 c 0,0 2.70784,-1.6247 2.16627,-4.3325 -0.54156,-2.7079 -0.54156,-4.3326 -2.70783,-5.4157 -2.16627,-1.0831 -7.04038,0 -7.04038,0 z"
             id="path3911" />
     </g>
-    <g><title>kvdvdsvndvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 228.54141,1494.6344 c 0,2.1663 0,5.9572 0,5.9572 l 4.33254,2.1663 3.24941,-2.7078 c 0,0 1.08313,-3.791 -1.08314,-4.3326 -2.16627,-0.5415 -6.49881,-1.0831 -6.49881,-1.0831 z"
             id="path3913" />
     </g>
-    <g><title>kdvdvvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 187.92386,1516.2971 -1.08313,4.8741 3.2494,1.6247 3.24941,0.5416 -1.08314,3.2494 c 0,0 -0.54156,2.7078 2.70784,3.7909 3.2494,1.0832 4.87411,0.5416 4.87411,0.5416 l -1.08314,-4.8741 0.54157,-2.7078"
             id="path3915" />
     </g>
-    <g><title>kvdsvddvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 186.29916,1519.0049 5.41568,5.4157 c 0,0 0.54156,4.3325 2.70783,5.9572 2.16627,1.6247 5.95724,0 5.95724,0 0,0 0.54157,-3.2494 0,-5.4156 -0.54156,-2.1663 0,-3.791 0,-3.791 0,0 0,-1.6247 -3.2494,-2.7078 -3.24941,-1.0832 -2.70784,-3.791 -4.87411,-4.3326 -2.16627,-0.5416 -4.8741,3.2494 -5.95724,4.8741 z"
             id="path3917" />
     </g>
-    <g><title>kvdsvdkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 245.33,1509.2567 c -1.08313,2.7078 -1.6247,9.7482 2.16627,9.2067 3.79097,-0.5416 3.79097,1.6247 5.41567,-1.6247 1.62471,-3.2495 2.70784,-4.3326 2.70784,-7.582 0,-3.2494 -0.54157,-8.6651 -3.79097,-5.9572 -3.24941,2.7078 -6.49881,5.9572 -6.49881,5.9572 z"
             id="path3919" />
     </g>
-    <g><title>kdvsvdvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 229.62455,1519.0049 c 0,0 -1.6247,4.8741 1.6247,5.4157 3.2494,0.5416 5.41567,3.791 5.41567,0 0,-3.791 2.16627,-7.0404 -1.08313,-7.0404 -3.24941,0 -5.95724,1.6247 -5.95724,1.6247 z"
             id="path3921" />
     </g>
-    <g><title>kvdssvdkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 227.45828,1530.3778 c 0,3.2494 -0.54157,6.4988 2.70784,6.4988 3.2494,0 5.95724,-1.0831 5.95724,-3.2494 0,-2.1662 -0.54157,-3.7909 -2.70784,-3.7909 -2.16627,0 -5.95724,0.5415 -5.95724,0.5415 z"
             id="path3923" />
     </g>
-    <g><title>kvdssdkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 204.17088,1536.3351 c 0,0 -1.08313,3.7909 2.16627,4.3325 3.24941,0.5416 7.58195,-2.1663 7.04038,-4.3325 -0.54157,-2.1663 -8.66508,-2.7079 -8.66508,-2.7079 z"
             id="path3925" />
     </g>
-    <g><title>kvdsdvsvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 193.33954,1542.2923 c 1.08313,3.791 3.79097,10.8314 6.49881,8.1235 2.70783,-2.7078 4.33253,-6.4988 4.33253,-6.4988 l -8.12351,-5.4157 z"
             id="path3927" />
     </g>
-    <g><title>kvsdvdsvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 215.5438,1547.708 c 3.2494,2.7078 7.58194,3.791 8.12351,1.6247 0.54157,-2.1663 3.79097,-3.2494 1.08313,-4.8741 -2.70783,-1.6247 -7.04037,-4.3326 -7.58194,-1.6247 -0.54157,2.7078 -1.6247,4.8741 -1.6247,4.8741 z"
             id="path3929" />
     </g>
-    <g><title>kvsvdskds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 278.90718,1551.499 c 3.2494,4.8741 7.04037,6.4988 7.04037,6.4988 0,0 3.79097,1.0831 4.33254,-3.2494 0.54157,-4.3326 5.95724,-4.3326 -0.54157,-7.582 -6.49881,-3.2494 -3.79097,-7.5819 -7.58194,-3.2494 -3.79097,4.3326 -3.2494,7.582 -3.2494,7.582 z"
             id="path3931" />
     </g>
-    <g><title>kvsdvdkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 221.50104,1557.9978 c 0.54157,4.8741 3.2494,7.5819 5.41567,4.8741 2.16627,-2.7079 5.95724,-6.4988 2.70784,-7.0404 -3.24941,-0.5416 -8.12351,1.0831 -8.12351,2.1663 z"
             id="path3933" />
     </g>
-    <g><title>kvsddsvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path title="2"
             d="m 218.7932,1575.8695 c 3.79097,-4.8741 7.04038,-4.8741 2.70784,-6.4988 -4.33254,-1.6247 -5.95724,-6.4988 -7.04038,-2.1663 -1.08313,4.3326 -2.70783,4.3326 -3.79097,5.9573 -1.08313,1.6247 -1.08313,2.1662 1.6247,5.9572 2.70784,3.791 2.16627,5.9572 5.41568,5.4157 3.2494,-0.5416 4.8741,2.1662 4.33254,-2.1663 -0.54157,-4.3325 -3.24941,-6.4988 -3.24941,-6.4988 z"
             id="path3935" />
     </g>
-    <g><title>kvsddsds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path
             d="m 203.08775,1583.4514 c 0.54157,2.7079 8.12351,2.1663 8.12351,0 0,-2.1662 2.16627,-4.3325 -1.6247,-5.4156 -3.79097,-1.0832 -10.83135,-1.0832 -9.74821,2.7078 1.08313,3.791 3.2494,2.7078 3.2494,2.7078 z"
             id="path3937" />
     </g>
-    <g><title>kvdsdvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path
             d="m 198.75521,1585.6177 c -0.54157,3.791 0.54157,9.2066 2.70784,7.5819 2.16627,-1.6247 7.58194,-3.2494 3.79097,-5.4156 -3.79097,-2.1663 -6.49881,-2.1663 -6.49881,-2.1663 z"
             id="path3939" />
     </g>
-    <g><title>kvdsdsvdvkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path
             d="m 274.57464,1589.9502 c 0,3.791 -1.62471,7.0404 3.79097,7.0404 5.41567,0 8.12351,2.7079 7.04037,-1.6247 -1.08313,-4.3325 -3.2494,-7.5819 -3.2494,-7.5819 0,0 -5.95724,0.5415 -7.58194,2.1662 z"
             id="path3943" />
     </g>
-    <g><title>kvsddss</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path
             d="m 229.08298,1656.0215 c 2.70784,5.4156 4.87411,5.4156 5.95724,2.7078 1.08314,-2.7078 3.24941,-0.5416 1.08314,-4.8741 -2.16627,-4.3326 -4.33254,-7.0404 -4.33254,-7.0404 0,0 -3.79097,-0.5416 -5.95724,2.1663 -2.16627,2.7078 -3.79097,7.0404 -3.79097,7.0404 z"
             id="path3945" />
     </g>
-    <g><title>kvdssdkds</title>
+    <g onMouseEnter={() => changeChartData(state.map.LD, dispatch)} onMouseLeave={()=> changeChartData(state.totalStats, dispatch)}>
+        <title>Lakshadweep: {state.map.LD ? state.map.LD.active : ""}</title>
         <path
             d="m 235.58179,1682.0167 c 1.6247,3.791 4.33254,6.4988 4.33254,6.4988 0,0 3.79097,-2.1663 3.79097,-4.8741 0,-2.7078 3.2494,-1.0831 0,-4.3325 -3.24941,-3.2495 -7.58194,2.1662 -8.12351,2.7078 z"
             id="path3947"
@@ -304,7 +340,6 @@ export default function Map() {
             id="path3788" />
     </g>
     <g>
-        <title>1</title>
         <path
             d="m 1068.7979,954.04847 c 0,0 0.7754,2.43682 2.3261,0.11076 1.5507,-2.32606 3.8767,-2.76912 2.9906,-4.98441 -0.8861,-2.2153 -0.6646,-3.10142 -1.5507,-4.20906 -0.8861,-1.10765 -0.8861,-5.09518 -2.8799,-2.54759 -1.9937,2.54759 -1.5507,4.09829 -2.6583,5.87053 -1.1077,1.77224 -3.1014,0.88612 -1.5507,2.99065 1.5507,2.10453 3.3229,2.76912 3.3229,2.76912 z"
             id="path3791" />
